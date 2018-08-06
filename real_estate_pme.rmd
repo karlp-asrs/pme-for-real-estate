@@ -12,7 +12,7 @@ GIPS recommends using IRRs to evaluate private market performance.  The question
 
 The following calculations illustrate how to do this.  
 
-```{r}
+```{r,warning=FALSE, message=FALSE}
 # 
 # if you haven't installed the ASRS method package, uncomment the following two lines to install it
 # library(devtools)

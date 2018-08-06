@@ -20,40 +20,8 @@ The following calculations illustrate how to do this.
 # install_github("karlp-asrs/asrsMethods/asrsMethods")
 #
 library(zoo)
-```
-
-```
-## Warning: package 'zoo' was built under R version 3.5.1
-```
-
-```
-## 
-## Attaching package: 'zoo'
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     as.Date, as.Date.numeric
-```
-
-```r
 library(asrsMethods)
 library(lubridate)
-```
-
-```
-## 
-## Attaching package: 'lubridate'
-```
-
-```
-## The following object is masked from 'package:base':
-## 
-##     date
-```
-
-```r
 #
 #first let's build a simple real estate project
 #assumptions:
@@ -107,7 +75,7 @@ re_pme=pestats(net_cf,re_idx_daily[time(net_cf)])
 ```
 
 The investment irr is 8.59%    
-The index irr (with the same daily cash flows) is 8.2%    
-The PME for the investment is 1.02        
+The index irr (with the same daily cash flows) is 8.56%    
+The PME for the investment is 1        
 
 
